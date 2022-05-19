@@ -1,0 +1,26 @@
+/* The animation code */
+@keyframes example {
+    from {background-color: skyblue;}
+    to {background-color: beige;}
+  }
+  
+  /* The element to apply the animation to */
+  .sec-3 {
+   
+    background-color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 9;
+  }
+
+  /* @keyframes page-two {
+    from {background-color: olive;}
+    to {background-color: gray;}
+  }
+  .contact-me {
+    background-color: rgb(24, 21, 21);
+    animation-name: page-two;
+    animation-duration: 4s;
+    animation-iteration-count: 9;
+  }
+  */

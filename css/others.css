@@ -1,0 +1,90 @@
+/* apartment-page */
+.apartment{
+    color: white;
+    padding-top: 300px; height: 400px;
+}
+
+/* listings */
+.listings-one .containerSlider{text-transform: capitalize;}
+
+.features{text-transform: capitalize;
+color: black; padding: 100px;
+ font-weight: 900; font-style: italic; line-height: 28px;
+text-align: center;}
+.feature-container{
+    height: 400px; 
+    width: 100%;
+    background-color: orange;
+}
+
+/* distress-section-one */
+.distress-container{
+   width: 100%;
+   height: 500px; background-color: white;
+}
+.img-one{height: 450px;  margin: 5px;
+     padding: 20px; border-radius: 3%;
+     background-color: whitesmoke;}
+.distress-one img{
+    width: 350px; height: 300px;
+}
+.distress-one{
+    display: grid; gap: 30px; 
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px 200px;
+    color:black;  
+}
+.distress-one h3{text-transform: capitalize;padding-top: 30px;
+    font-size: large;font-style: italic; text-align: center;
+font-family: sans-serif; font-weight: 700;}
+.distress-one button{align-items: center; text-align: center;
+margin-left: 100px;}
+
+.timer{text-align: center; color: red;
+}
+.video-section{text-align: center; padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase; background-color: whitesmoke; 
+    color: orange;}
+
+.video-section button{margin: 10px;}
+
+
+/* .section-seven */
+.section-seven-container{width: 100%;  height: fit-content;
+    border-bottom: 1px solid gray;
+    background-image: url(img/construction-site2.jpg);
+     object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; text-align: center;
+    align-items: center; font-weight: 900; 
+    
+
+    position: relative;
+    width: 100%; 
+    margin: 0 auto;
+   }
+   .section-seven-container .section-seven{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 150px; 
+   }
+
+
+
+.social-media-icons h2{font-weight: 900; 
+    font-size: 15px; color: white; font-style: inherit;}
+.social-media-icons a:hover{background-color: blue;}
+
+.contact-me button{padding:20px; font-weight: 900; 
+    background-color:whitesmoke; color: black; border-radius: 2%; }
+ 
+
+   /* .contact-me button :hover {background-color: white; 
+    color: olive;} */
+
+
+/* .input-group button{width: 200px; height: 50px; margin-bottom: 50px;} */
