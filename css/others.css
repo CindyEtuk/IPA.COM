@@ -40,9 +40,9 @@ font-family: sans-serif; font-weight: 700;}
 .distress-one button{align-items: center; text-align: center;
 margin-left: 100px;}
 
-.timer{text-align: center; color: red;
+.timer{text-align: center; color: red; margin: 0px !important;
 }
-.video-section{text-align: center; padding: 5px;
+.video-section{text-align: center; padding: 0px;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase; background-color: whitesmoke; 
     color: orange;}
@@ -77,13 +77,13 @@ margin-left: 100px;}
     font-size: 15px; color: white; font-style: inherit;}
 .social-media-icons a:hover{background-color: blue;}
 
-.contact-me button{padding:20px 20px; font-weight: 900; border-radius: 20px; margin-top: 10px;
+.contact-me button{padding:10px 10px; font-weight: 900; border-radius: 20px; margin-top: 10px;
     background-color:whitesmoke; color: black; }
+
  .contact-me img{width: 20px; height: 20px;}
  .social-media-icons svg{color: white;}
 
-   /* .contact-me button :hover {background-color: white; 
-    color: olive;} */
+
 
 
 /* .input-group button{width: 200px; height: 50px; margin-bottom: 50px;} */

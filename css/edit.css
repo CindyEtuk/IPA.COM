@@ -28,8 +28,15 @@ text-decoration: none;
 .navigation{
   display: flex;
   justify-content: space-between;
+height: 100px;
+width: 100%;
 
-
+}
+.index-navigation{
+  display: flex;
+  justify-content: space-between;
+height: 100px;
+width: 100%;
 
 }
 .navigation a{text-decoration: none;
@@ -42,10 +49,11 @@ color: orange;}
   vertical-align: baseline;
   
 }
-
+.index-navigation img{
+  cursor: pointer; width: 80px; height: 80px; border-radius: 50px; margin-top: 10px; 
+}
 .navigation img{
-     cursor: pointer; width: 150px;
-    max-height: 100px; }
+     cursor: pointer; width: 80px; height: 80px; border-radius: 50px; margin-top: 10px; }
 
 .nav-section1 ul h1{
   width: 0px; height: 0px;
@@ -89,22 +97,22 @@ object-fit: cover;
 /* banner */
 .banner-container{
   width: 100%; 
-  height: fit-content;
+  height: 600px;
   background-image: url(img/land.jpg);
   background-size: cover;
   background-position: center; 
   object-fit: contain; 
-  text-transform: capitalize; font-family: cursive;       
+  text-transform: capitalize;        
   font-size: 14px; text-align: center;
   font-weight: bolder; color: white; 
 
 }
-.banner h2{padding: 100px;}
 
-.banner button{padding:20px 50px; font-weight: 900;
-  border: 1px solid white;
+
+.banner button{padding:20px 40px; font-weight: 900;
+  border: 1px solid white; 
   background-color:transparent; color: white; 
-  margin-left: 80px; margin-top: 130px;}
+  margin-left: 80px; margin-top: 80px !important;}
 .banner button:hover{color: blue;background-color: white;}
 
 /* section one */
