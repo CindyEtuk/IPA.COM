@@ -66,7 +66,7 @@
     }
     /* banner-start */
 
-    .banner{
+    .banner{margin: 0px;
             height: fit-content; 
             }
     
@@ -78,7 +78,7 @@
       background: rgb(0, 0, 0); 
       background: rgba(0, 0, 0, 0.5); 
       color: white; 
-      padding: 20px; text-align: center;
+      padding: 0px; margin: 0px;
     }
     
     .banner{  flex: 100%;
@@ -87,12 +87,13 @@
 .banner button{padding:10px 20px;  }
      
 .btn-l button{padding:10px 20px;   }
-      
+
+   
 
   
   
   .containerSlider{ flex: 100%;
-    width: 100%;
+    width: 100%; margin-top: 0px;
    height: 400px;
    }
 
@@ -112,15 +113,14 @@
  .distress-one{
     display: block;
     flex: 100%;
-    width: 100%; background-color: white;
+    width: 100%; 
  }
- .img-one{
-  background-color: white;}
- .distress-container{ background-color: white;
+ 
+ .distress-container{ background-color: #333;
     height: fit-content; 
  }
  .distress-one h3{ width: 100%; flex: 100%;
-     text-align: center;background-color: white;
+     text-align: center;
 font-size: 14px;}
 .distress-one img{
   width: 100%; flex: 100%;
@@ -137,66 +137,109 @@ font-size: 14px;}
     
   }
 
+/* houses-page */
+
+
+.features h1{padding:5px 20px; font-size: 25px; color: white;}
+.features p{line-height: 26px; padding: 10px;
+     color:white; font-size: 14px;}
+     .img-one h3{line-height: 26px; padding: 10px;
+      color:white; font-size: 14px;}
+.features{text-transform: capitalize;
+ padding:0px;
+  line-height: 18px;
+text-align: center;}
+.feature-container{ 
+    height: 100%; 
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.distress-container{
+  padding: 0px;
+}
+.distress-container h1{ font-size: 28px; padding: 10px;}
+
+.distress-one h3{padding: 10px; 
+   text-align: center;}
+
 
     /* listing page */
 
-    .section-five{width: 100%; flex: 100%;
-       height: fit-content;}
+    .section-five{width: 100%; flex: 100%; padding: 20px;
+       height: 100%;}
     
       .photo-container{
         width: 100%; flex: 100%;
         display: block; height: fit-content;
       }
-
+      .section-five h1{font-size: 26px;}
       .gallery-item{
-        width: 100%;
-        height: 200px;
+        width: 100%; 
+        height: fit-content;
         
       }
       .gallery-item .image{
         width: 100%;
-        height: 100px;
+        height: 100%;
        
       }
       .gallery-item .image img{
         width: 100%;
-        height: 100px;
+        height: 300px;
       }
       .section-five h2{font-size: 14px;}
 
-      .features{
-        color: #333; padding: 40px;
-        text-align: start;}
-        .feature-container{
-            height: 400px; border-bottom: 1px solid white;
-            width: 100%; flex: 100%; display: block;
-            background-color: whitesmoke;
-        }
-        .features h2{font-size: 12px;
-        text-align: center;}
+    
+     
+
+
 
         /* about-us page */
+        .about{margin: 0px;
+          
+          }
+  
+ 
+  .about .banner-content{flex: 100%;
+    width: 100%; object-fit: contain;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 0px; margin: 0px; 
+  
+  }
+  
+.about-content h1{ 
+  padding-top: 10px;
+   font-size: 16px;     
+ }
+  .about{  flex: 100%;
+    width: 100%; object-fit: contain;  }
+
+.about button{padding:10px 20px;  }
+   
+.btn-l button{padding:10px 20px;   }
+        
 
         .section-six-bg{display: block; flex: 100%;width: 100%;
-          height: fit-content; padding: 20px;}
+          height: fit-content; padding:40px 20px;}
 
-        .sec6{width: 100%; text-align: start;line-height: normal;
-        height:fit-content; }
-        .sec6 h1{font-size: 12px;}
-        .sec6 p{font-size: 10px;}
+          .sec6-image{padding-bottom: 150px;}
 
-        .sec6-image img{width: 100%; }
+        
 
 
 
  /* contact-us page */
 
- .section-seven-container{ 
+ .section-seven-container{margin-top: 0px;
 width: 100%; flex: 100%; }
 
 
 .section-seven h1{font-size: 12px;}
-
+.form-page{display: block;
+  width: 100%; flex: 100%;} 
  .social-media-icons{display: block;
   width: 100%; flex: 100%;} 
 

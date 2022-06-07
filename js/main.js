@@ -2,8 +2,6 @@ $(".display").hide()
 
 
 
-
-
 $(".showEffect").on('mouseover', function (){
     $(this).find(".display").show()
     $(this).find(".image2").hide()

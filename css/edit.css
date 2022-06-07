@@ -6,22 +6,20 @@
 
 .topnav{display: none;}
 
-
-.navigation{ background-color: white;
+.navigation{ background-color: white; 
   border-bottom: 2px solid whitesmoke;
-  display: flex;
+  display: flex; position: fixed;
   justify-content: space-between;
-
 width: 100%;color: black;
 
 }
-.navigation a{text-decoration: none; }
+.navigation a{text-decoration: none;  }
 .logo1 a{color:#333; text-transform: uppercase;
  }
 .logo1{margin-left: 45px; padding: 10px; height: 20px;cursor: pointer;}
 .logo1 h6{font-size: 12px;font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;}
 .logo1 h1{font-family: Helvetica,Arial,sans-serif; }
-.nav-section1 ul{
+.nav-section1 ul{ 
   display: flex;
   margin: 5px 10px;
   font: inherit;
@@ -29,16 +27,14 @@ width: 100%;color: black;
   
 }
 
-.nav-section1 ul h1{
-  width: 0px; height: 0px;
-}
+
 .nav-section1 ul li{
   list-style: none;  margin:15px  15px;  
 }
 .nav-section1 ul li a{
-  text-decoration: none; 
+  text-decoration: none; font-weight: 600;
   text-transform: capitalize; padding: 3px;
-  font-size: .9175rem;font-size: 14px;
+  font-size: .9175rem;font-size: 16px;
   font-family: "Work Sans",sans-serif;
   line-height: 1.7; color:#333;
   -moz-osx-font-smoothing: grayscale;
@@ -52,9 +48,10 @@ width: 100%;color: black;
 
 
     /* section-one */
-.containerSlider{
+
+.containerSlider{margin-top: 50px;
  width: 100%;
-height: 600px;
+height: 500px;
 object-fit: cover;
       
 }
@@ -71,33 +68,34 @@ object-fit: cover;
 /* banner */
 
 
-.banner{
-  background-image:
-       url(img/furnished2.jpg);
-        height: 700px; width: 100%; background-size: cover; 
-         background-position: bottom; position: relative;
-         width: 100%; 
-        
+
+.banner{background-image: url(img/2bedroom.jpg);
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+   height:fit-content; width: 100%; background-size: cover; 
+  background-position: bottom; position: relative;
+ margin-top: 50px;
 }
 
-.banner-content h1{font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
-  font-size: 36px; padding: 20px;    text-transform: capitalize;
+.banner-content h1{ 
+ text-transform: uppercase;
+  font-size: 26px; padding: 20px;    
 }
 .banner .banner-content{
 
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgb(0, 0, 7); 
+  background: rgba(0, 0, 0, 0.4); 
   color: white; 
   width: 100%; 
-  padding: 225px; text-align: center;
+  padding: 125px; text-align: center;
 }
-.banner button{padding:20px 40px; font-weight: 900; margin: 10px;
+.banner button{padding:20px 40px; font-weight: 900; margin: 10px; border-radius: 20px;
   background-color:transparent; color: white;border: 2px solid white; }
-.banner button:hover{color: whitesmoke;background-color:rgb(164, 162, 162);}
+.banner button:hover{color: white;background-color:orange;}
 
- .btn-l button{padding:20px 40px; font-weight: 900; margin: 10px; border-radius: 20px;
+ .btn-l button{padding:20px 40px; font-weight: 900; margin: 10px 0px; border-radius: 20px;
   background-color:orange; color: white;border: 1px solid orange; }
-.btn-l button:hover{color: whitesmoke;background-color:rgb(246, 176, 45);}
+.btn-l button:hover{color: white;background-color:rgb(247, 195, 98);}
 
 
 /* section one */
@@ -126,11 +124,11 @@ object-fit: cover;
   overflow: hidden; background-position:center;
   text-align: center; object-fit: cover; 
 }
-.pic:hover {
+/* .pic:hover {
   transition: .4s !important;
   transform: scale(1.008) !important; 
   
-}
+} */
 .pic h1 span{
   color:orange;
   padding-bottom: 15px;
@@ -151,30 +149,30 @@ font-size: 75px; text-transform: uppercase;}
 }
 
  .sideone h3{
-  font-weight: 100; 
-  text-transform: capitalize;
+  line-height: 26px;
+    font-family: inherit; display: block;
+     color:#333; font-size: 16px;
  
  }
  
 /* section-3 */
 .sec-3{width: 100%;
-  display: grid; 
-  height: 500px; color: white; padding: 100px;
+  display: grid; margin-top: 1px;
+   color: white; padding:120px 80px;
   grid-template-columns:repeat(3,1fr) ; grid-gap: 40px;
   border-bottom: 1px solid white; background-color: whitesmoke;
 }
+.sec-3 img{height: 200px; }
 .sec-3 span {    color: #fff;
   font-family: "Roboto Slab",Sans-serif;
   /* font-size: 70px; */
   font-weight: 600; }
-.sec-3 h3 {color: #333;
-  font-family: "Roboto",Sans-serif;
-  font-size: 40px; margin-top: 10px;
-  font-weight: 300;}
+.sec-3 h1 {margin-top: 50px; color: #333;
+  font-size: 35px; text-transform: uppercase;;}
 
-  .sec-3 P{ line-height: 26px;
+  .sec-3 P{ line-height: 36px;
     font-family: inherit; display: block;
-     color:#333; margin: 20px; font-size: 16px;
+     color:#333; margin: 10px; font-size: 18px;
   }
   
   /* section three */
@@ -199,89 +197,86 @@ font-size: 75px; text-transform: uppercase;}
      
 
 /* section6 */
-.sec6{width: 100%; text-align: left;line-height: 38px; }
-.sec6-image img{object-fit: cover;}
-.sec6-image-text{text-align: start; padding: 0px;}
+.about{
+  display: grid;
+  grid-template-columns: repeat(2,1fr); width: 100%;
+   height:fit-content; width: 100%; background-size: cover; 
+   position: relative; height: auto;
+ margin-top: 50px;
+}
 
-.section-six-bg{font-size: 15px;
+.about-content h1{ 
+ text-transform: uppercase;
+  font-size: 36px; padding: 20px;    
+}
+.about-content p{ 
+  text-transform: uppercase;
+   font-size: 16px; line-height: 26;   
+ }
+.about .about-content{
+object-fit: contain;
+  background: rgb(0, 0, 7); 
+  background: rgba(0, 0, 0, 0.4); 
+  color: white; 
+  width: 100%; 
+  padding: 125px; text-align: center;
+}
+.about button{padding:20px 40px; font-weight: 900; margin: 10px; border-radius: 20px;
+  background-color:transparent; color: white;border: 2px solid white; }
+.about button:hover{color: white;background-color:orange;}
+
+ .btn-l button{padding:20px 40px; font-weight: 900; margin: 10px 0px; border-radius: 20px;
+  background-color:orange; color: white;border: 1px solid orange; }
+.btn-l button:hover{color: white;background-color:rgb(247, 195, 98);}
+
+
+
+
+
+.sec6{width: 100%; text-align: left; color: white; }
+.sec6-image img{object-fit: cover; width: 100%; height: 100%;
+}
+.sec6-image-2 img{object-fit: cover; width: 100%; height: 100%;
+}
+.sec6-image{width: 100%; height: 500px; 
+  border-radius: 20px;font-size: 18px;
+  color:#333;   border:5px solid whitesmoke;}
+  
+  .sec6-image-2{width: 100%; height: 500px; 
+    border-radius: 20px;font-size: 18px;
+    color:#333;   border:5px solid whitesmoke;}
+.sec6-image-text{text-align: start; padding: 20px;}
+.sec6 h1{font-size: 45px; text-transform: uppercase;}
+.sec6 p{
+  line-height: 36px; 
+    font-family: inherit; display: block;
+     color:#333; font-size: 18px;
+ 
+ }
+.section-six-bg{
   display: grid; grid-gap: 40px;
   grid-template-columns: repeat(2,1fr);
-  height: 700px; padding: 70px;
+  height: fit-content; padding: 100px;
   border-bottom: 1px solid white; 
-   background-color:whitesmoke;}
+   background-color:orange;}
 
 
 
-.section-five{width: 100%; 
-padding-left: 20px;}
 
-/* section-5 */
 
-.section-five {color: olive;text-align: center;}
-.photo-container{
-  width: 100%;
-  display: grid; height: fit-content;
-  grid-template-columns: repeat(3,1fr);
-  grid-auto-rows: 250px 250px; 
-  grid-gap: 100px;
-  grid-auto-flow: dense;
-  padding: 10px;
-}
-.overflowed{
-  text-transform: capitalize;        
-  font-size: 14px; text-align: center;
-  font-weight: bolder;
-  
-}
-.gallery-item{
-  width: 100%;
-  height: 100%;
-  position: relative;
-  
-}
-.gallery-item .image{
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
- 
-}
-.gallery-item .image img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  cursor: pointer;
-  transition: .5s ease-in-out;
-}
- /* .gallery-item:hover .image img{
-   transform: translateX(200px); 
-  transform: translateX(600px);
-}  */
 
-.display {
-  margin-top: 120px;
-  margin-left: 120px;
-  align-items: center;
-  padding: 10px 10px;
-  background-color: white; 
-  text-transform: uppercase; border: 1px solid black;
-}
-.display a{
-  text-decoration: none;
-  color: black;
-}
 
   /* sectio-8 */
 
-   .sec8-container{ text-transform: capitalize;
-    background-color:whitesmoke; margin: 0px; flex-wrap: wrap;}
+   .sec8-container{ text-transform: capitalize; color: #fff;
+    background-color:rgb(27, 26, 26); margin: 0px; flex-wrap: wrap;}
 
       .sec8-grid{display: grid; padding: 100px; gap: 10px;
       grid-template-columns: repeat(4,1fr);}
       .sec8-grid a { text-decoration: none;
-        color: black; line-height: 25px; font-size: 13px;
+        color: whitesmoke; line-height: 25px; font-size: 13px;
         }
-       .sec8 svg{padding-bottom: 0px; padding-left: 2px; color: #333}
+       .sec8 svg{padding-bottom: 0px; padding-left: 2px; color: white}
        .sec8 img{width: 100px; height: 100px; border-radius: 50px;}
 
 
