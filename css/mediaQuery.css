@@ -12,12 +12,13 @@
   position: relative;
   display: contents;
 }
+.topnav img{height: 60px; width: 100px;}
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
   position: absolute;
-  left: 0; align-items: center;
+  left: 0; 
   padding: 5%;
   background: #fff;
   width: 100%;
@@ -41,7 +42,7 @@
 /* Style the hamburger menu */
 .topnav a.icon {
   background: white;
-  color:#333;
+  color:#333; border-bottom: none;
   display: block;
   position: absolute;
   right: 0;
