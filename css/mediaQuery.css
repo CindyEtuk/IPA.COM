@@ -130,7 +130,7 @@ font-size: 14px;}
 .sec-3{ display: block; padding: 10px 30px;
         width: 100%; height: fit-content;
  }
- .sec-3 img{height: 300px; width: 100%; }
+ .sec-3 img{height: 100%; width: 100%; }
  .sec-3 h3 { margin-top: 5px;
   font-size: 25px; }
   .sec-3 h1 {margin-top: 15px; color: #333;
