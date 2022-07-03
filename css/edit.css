@@ -6,7 +6,7 @@
 
 .topnav{display: none;}
 
-.navigation{ background-color: white; 
+.navigation{ background-color: white;  z-index: 4000;
   border-bottom: 2px solid whitesmoke;
   display: flex; position: fixed;
   justify-content: space-between;
